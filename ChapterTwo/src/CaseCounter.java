@@ -23,7 +23,8 @@ public class CaseCounter {
 	public static void main(String[] args) {
 		
 		//TODO Write Code.
-
+		System.out.println("Number of full cases "+ 457/12 );
+	System.out.println("Cans left over "+457%12);
 	}
 
 }

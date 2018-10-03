@@ -32,8 +32,15 @@ public class DigitPrinter {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//TODO Write Code.
+		final int MY_NUMBER = 718;
+		System.out.println(MY_NUMBER/100);
+		System.out.println((MY_NUMBER%100)/10);
+		System.out.println(MY_NUMBER%10);
 
 	}
+	
+	
+	
+	
 
 }

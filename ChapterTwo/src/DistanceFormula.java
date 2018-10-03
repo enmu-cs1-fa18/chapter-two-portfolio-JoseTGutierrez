@@ -1,4 +1,4 @@
-
+import java.lang.Math;
 
 /**
  * Calculates and prints the distance between two points.
@@ -22,7 +22,12 @@ public class DistanceFormula {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//TODO Write Code.
+		float x1 = 6;
+		float y1 = 7;
+		float x2 = -3;
+		float y2 = -2;
+		double distance = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2));
+		System.out.println("Distance: " + distance);
 	}
 
 }

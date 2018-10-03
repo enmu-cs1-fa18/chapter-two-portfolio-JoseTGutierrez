@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 /**
  * Gets words from user to fill in the gaps in a story.
  * @author
@@ -26,7 +26,22 @@ public class MadLibber {
 	 *    Be sure to double check the spacing on your output!
 	 */
 	public static void main(String[] args) {
-		// TODO Write code here.
+		
+		Scanner input = new Scanner(System.in);
+		
+		String adj1, noun1, num1, noun2, adj2, verb1, noun3, bodypart1;
+		
+		adj1 = input.nextLine();
+		noun1 = input.nextLine();
+		num1 = input.nextLine();
+		noun2 = input.nextLine();
+		adj2 = input.nextLine();
+		verb1 = input.nextLine();
+		noun3 = input.nextLine();
+		bodypart1 = input.nextLine();
+		
+		
+		System.out.println("Hey baby, I guarantee there'll be " + adj1 + " times. I guarantee that at some, " + noun1 + ", " + num1 +" or both of us is gonna want to get out of this " + noun2 + ". but I also guarantee that if I dont ask you to be " + adj2 + " I'll " + verb1 + "it for the rest of my " + noun3 + ", because I know in my " + bodypart1 + ", you're the only one for me.");
 
 	}
 

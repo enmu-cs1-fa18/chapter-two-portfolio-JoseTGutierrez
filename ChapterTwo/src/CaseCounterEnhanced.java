@@ -27,8 +27,27 @@ public class CaseCounterEnhanced {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-				
-		//TODO Write Code.
+
+		int numberOfCans;
+		float cost;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input number of cans: ");
+		
+		numberOfCans = input.nextInt();
+		
+		System.out.println("Input cost of cans: ");
+		
+		cost = input.nextFloat();
+		
+		System.out.println("Full cases: " + numberOfCans/12);
+		
+		System.out.println("Left over cans: " + numberOfCans%12);
+		
+		System.out.println("Total dollar value: $" + numberOfCans * cost);
+		
+
 	}
 
 }
